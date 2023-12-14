@@ -55,9 +55,7 @@ class User extends CI_Controller
 			$this->db->set('name', $name);
 			$this->db->where('email', $email);
 			$this->db->update('users');
-			$this->session->set_flashdata('pesan', '<div 
-   class="alert alert-success alert-message" role="alert">Profil 
-   Berhasil diubah </div>');
+			$this->session->set_flashdata('pesan', '<div class="alert alert-success alert-message" role="alert">Profil Berhasil diubah </div>');
 			redirect('user');
 		}
 	}

@@ -39,7 +39,7 @@
 				</a>
 			</li>
 			<li class="nav-item">
-			<a class="nav-link" href="#" data-toggle="modal" data-target="#logoutModal">
+			<a class="nav-link" href="<?=base_url('auth/logout');?>" data-toggle="modal" data-target="#logoutModal">
 					<i class="fas fa-fw fa-door-closed"></i>
 					<span>Logout</span>
 				</a>
