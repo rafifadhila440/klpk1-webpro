@@ -20,7 +20,7 @@
 
 </head>
 
-<body style="background-position: center; background-image: url(assets/img/Snaptik.app_728791270159289882212.jpg); background-size: cover; background-attachment: fixed; background-repeat: no-repeat;">
+<body class="bg-gradient-dark">
 
 	<div class="container">
 
